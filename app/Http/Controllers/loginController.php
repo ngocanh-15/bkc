@@ -4,7 +4,11 @@ namespace App\Http\Controllers;
 
 class loginController extends Controller
 {
-    public static function loginView() {
+    public function loginView() {
         return view('login');
+    }
+
+    public function signupView() {
+        return view('register');
     }
 }

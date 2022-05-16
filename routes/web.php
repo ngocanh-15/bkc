@@ -18,3 +18,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/login',[loginController::class, 'loginView']);
+Route::get('/signup',[loginController::class, 'signupView']);
