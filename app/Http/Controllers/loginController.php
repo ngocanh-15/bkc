@@ -29,7 +29,7 @@ class loginController extends Controller
                 return redirect()->route('admin');
             }
             else {
-                return redirect()->route('');
+                return redirect()->route('home');
             }
         }
         else {

@@ -23,5 +23,13 @@ class DatabaseSeeder extends Seeder
             'address' => 'HN',
             'password' => bcrypt('admin'),
         ]);
+        Admin::create([
+            'name' => 'user',
+            'email' => 'user@gmail.com',
+            'phone' => '0123456789',
+            'admin' => 0,
+            'address' => 'HN',
+            'password' => bcrypt('user'),
+        ]);
     }
 }
