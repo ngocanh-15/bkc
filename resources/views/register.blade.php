@@ -18,7 +18,7 @@
             </div>
         </div>
         <div class="w-1/2 overflow-hidden min-h-full" style="background: #E5E5E5">
-            <div class="min-h-full rounded-md flex justify-center item-center flex-col relative" id="login">
+            <div class="min-h-full rounded-md flex justify-center item-center flex-col relative rounded-xl shadow-lg" id="login">
                 <div class="text-4xl font-bold mb-20 text-center">Signup</div>
                 <div class="w-full">
                     <form action="" class="w-full">

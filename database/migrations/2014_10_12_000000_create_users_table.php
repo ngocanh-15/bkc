@@ -21,6 +21,8 @@ return new class extends Migration
             $table->string('address');
             $table->string('phone');
             $table->boolean('admin');
+            $table->dateTime('created_at');
+            $table->dateTime('updated_at');
         });
     }
 
