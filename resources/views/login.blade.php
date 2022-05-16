@@ -21,17 +21,18 @@
                 <div class="min-h-full rounded-md flex justify-center item-center flex-col relative" id="login">
                     <div class="text-4xl font-bold mb-20 text-center">login</div>
                     <div class="w-full">
-                        <form action="" class="w-full">
+                        <form method="post" class="w-full">
+                            @csrf
                             <div class="mx-auto flex justify-center">
-                                <input type="text" name="user" class="w-5/6 py-2 rounded mb-10 px-3 outline-none text-xl" placeholder="Email">
+                                <input type="text" name="email" class="w-5/6 py-2 rounded mb-10 px-3 outline-none text-xl" placeholder="Email">
                             </div>
                             <div class="mx-auto flex justify-center">
                                 <input type="password" name="pass" class="w-5/6 py-2 rounded mb-10 px-3 outline-none text-xl" placeholder="Password">
                             </div>
+                            <button type="submit" class="rounded w-32 flex justify-center font-bold text-xl cursor-pointer py-3 mx-auto bg-white">
+                                Login
+                            </button>
                         </form>
-                        <div class="rounded w-32 flex justify-center font-bold text-xl cursor-pointer py-3 mx-auto bg-white">
-                            Login
-                        </div>
                         <div class="flex justify-center mt-10">
                             <div>Do you have not an account ?</div>
                             <a href="/signup" class="text-blue-500 ml-2 cursor-pointer hover:underline">Signup here</a>
