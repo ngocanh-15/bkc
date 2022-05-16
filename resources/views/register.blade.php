@@ -19,12 +19,12 @@
         </div>
         <div class="w-1/2 overflow-hidden min-h-full" style="background: #E5E5E5">
             <div class="min-h-full rounded-md flex justify-center item-center flex-col relative rounded-xl shadow-lg" id="login">
-                <div class="text-4xl font-bold mb-20 text-center">Signup</div>
+                <div class="text-4xl font-bold mb-20 text-center">SIGNUP</div>
                 <div class="w-full">
                     <form action="" class="w-full">
                         <div class="w-full flex justify-center">
                             <input type="text" name="fullame"
-                                   class="mr-5 w-5/12 py-2 rounded mb-10 px-3 outline-none text-xl" placeholder="fullName">
+                                   class="mr-5 w-5/12 py-2 rounded mb-10 px-3 outline-none text-xl" placeholder="Fullname">
 
                             <input type="text" name="numberPhone"
                                    class="ml-5 w-5/12 py-2 rounded mb-10 px-3 outline-none text-xl"
